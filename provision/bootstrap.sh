@@ -16,6 +16,6 @@ printf "no\nno" | pecl install APCu-beta
 
 # Run codebase specific setup scripts
 sh /var/www/scripts/setup.sh || true
-
+#
 # Done
 exit
